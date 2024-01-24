@@ -2,14 +2,14 @@
 <diagram program="umlet" version="15.1">
   <help_text>
 </help_text>
-  <zoom_level>12</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>36</y>
-      <w>120</w>
-      <h>48</h>
+      <x>27</x>
+      <y>54</y>
+      <w>72</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -19,10 +19,10 @@ Principal</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>36</y>
-      <w>120</w>
-      <h>48</h>
+      <x>171</x>
+      <y>54</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -32,22 +32,22 @@ Partida</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>36</y>
-      <w>120</w>
-      <h>48</h>
+      <x>90</x>
+      <y>54</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;crea&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>276</y>
-      <w>120</w>
-      <h>48</h>
+      <x>171</x>
+      <y>234</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -57,10 +57,10 @@ Jugador</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>228</x>
-      <y>72</y>
-      <w>96</w>
-      <h>228</h>
+      <x>180</x>
+      <y>81</y>
+      <w>72</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 gana ^
@@ -72,10 +72,10 @@ r1=ganador</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>72</y>
-      <w>48</w>
-      <h>228</h>
+      <x>234</x>
+      <y>81</y>
+      <w>36</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=*
@@ -85,10 +85,10 @@ m2=2</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>36</y>
-      <w>120</w>
-      <h>48</h>
+      <x>351</x>
+      <y>54</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -98,10 +98,10 @@ TableroPropio</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>48</y>
-      <w>156</w>
-      <h>48</h>
+      <x>252</x>
+      <y>63</y>
+      <w>117</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=1
@@ -111,10 +111,10 @@ m2=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>72</y>
-      <w>156</w>
-      <h>228</h>
+      <x>252</x>
+      <y>81</y>
+      <w>117</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -124,23 +124,23 @@ m2=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>72</y>
-      <w>156</w>
-      <h>180</h>
+      <x>252</x>
+      <y>81</y>
+      <w>117</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=1
 m2=2</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>228</y>
-      <w>156</w>
-      <h>84</h>
+      <x>252</x>
+      <y>198</y>
+      <w>117</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -150,12 +150,13 @@ m2=0..1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>204</y>
-      <w>120</w>
-      <h>48</h>
+      <x>351</x>
+      <y>180</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>bg=#2E9AFE
+    <panel_attributes>style=autoresize
+bg=#2E9AFE
 valign=center
 TableroEnemigo</panel_attributes>
     <additional_attributes/>
@@ -163,23 +164,23 @@ TableroEnemigo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>72</y>
-      <w>168</w>
-      <h>252</h>
+      <x>243</x>
+      <y>81</y>
+      <w>126</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=1
 m2=2</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>300</y>
-      <w>156</w>
-      <h>48</h>
+      <x>252</x>
+      <y>252</y>
+      <w>117</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -189,10 +190,10 @@ m2=0..1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>276</y>
-      <w>120</w>
-      <h>48</h>
+      <x>351</x>
+      <y>234</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -202,10 +203,10 @@ Flota</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>276</y>
-      <w>120</w>
-      <h>48</h>
+      <x>594</x>
+      <y>234</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -215,36 +216,36 @@ Barco</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
-      <y>288</y>
-      <w>132</w>
-      <h>48</h>
+      <x>432</x>
+      <y>243</y>
+      <w>180</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=0..1
 m2=10</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>288</y>
-      <w>132</w>
-      <h>48</h>
+      <x>675</x>
+      <y>243</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
 m1=1
 m2=1..4</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>888</x>
-      <y>276</y>
-      <w>120</w>
-      <h>48</h>
+      <x>765</x>
+      <y>234</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -254,10 +255,10 @@ Trozo</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>36</y>
-      <w>120</w>
-      <h>48</h>
+      <x>639</x>
+      <y>54</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -267,34 +268,34 @@ Casilla</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
-      <y>48</y>
-      <w>132</w>
-      <h>60</h>
+      <x>432</x>
+      <y>63</y>
+      <w>225</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
 m2=100 \n{10x10}</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;230.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
-      <y>72</y>
-      <w>216</w>
-      <h>180</h>
+      <x>450</x>
+      <y>81</y>
+      <w>270</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
 m2=100 \n{10x10}</panel_attributes>
-    <additional_attributes>10.0;130.0;110.0;130.0;110.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;230.0;130.0;230.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
-      <y>72</y>
-      <w>192</w>
-      <h>228</h>
+      <x>702</x>
+      <y>81</y>
+      <w>144</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 colocado ^
@@ -305,10 +306,10 @@ m2=0..1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>384</y>
-      <w>312</w>
-      <h>180</h>
+      <x>18</x>
+      <y>315</y>
+      <w>234</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -328,10 +329,10 @@ R2=CREAR PARTIDA
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>120</y>
-      <w>120</w>
-      <h>48</h>
+      <x>351</x>
+      <y>117</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>bg=#2E9AFE
 valign=center
@@ -342,10 +343,10 @@ TipoOrientacion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>72</y>
-      <w>36</w>
-      <h>72</h>
+      <x>387</x>
+      <y>81</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -353,10 +354,10 @@ TipoOrientacion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>156</y>
-      <w>36</w>
-      <h>72</h>
+      <x>387</x>
+      <y>144</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -364,10 +365,10 @@ TipoOrientacion</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>336</x>
-      <y>384</y>
-      <w>348</w>
-      <h>336</h>
+      <x>261</x>
+      <y>315</y>
+      <w>261</w>
+      <h>252</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -395,19 +396,19 @@ R10=COLOCAR FLOTAS [AUTO]</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>708</x>
-      <y>384</y>
-      <w>240</w>
-      <h>180</h>
+      <x>540</x>
+      <y>315</y>
+      <w>153</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>style=autoresize
-bg=#2E9AFE
+bg=red
 valign=center
 Flota
 -
 -barcos: Barco[n] &lt;&lt;R&gt;&gt;
 -
-+Flota(n: int, longitudes: int[n])
++Flota(longitudes: int[n])
 +getBarcos(): Barco[]
 +estaHundida(): boolean
 +toString(): String
@@ -418,10 +419,10 @@ R9=CREAR BARCOS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>384</y>
-      <w>204</w>
-      <h>132</h>
+      <x>702</x>
+      <y>315</y>
+      <w>153</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -438,31 +439,38 @@ Barco
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1176</x>
-      <y>384</y>
-      <w>192</w>
-      <h>156</h>
+      <x>720</x>
+      <y>585</y>
+      <w>225</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>style=autoresize
-bg=#2E9AFE
+bg=red
 valign=center
-Trozo
+Coordenada
 -
--tocado: boolean
+_-minFila: char='A'_
+_-maxFila: char='J'_
+_-minColumna: char=1_
+_-maxColumna: char=10_
+-fila: char
+-columna: int
 -
-+Trozo()
-+estaTocado(): boolean
-+tocar()
++Coordenada(fila: char, columna: int)
++getFila(): char
++getColumna(): char
+_+esFila(fila: char): boolean_
+_+esColumna(columna: int): boolean_
 +toString(): String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1248</x>
-      <y>588</y>
-      <w>228</w>
-      <h>228</h>
+      <x>954</x>
+      <y>459</y>
+      <w>171</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -484,10 +492,10 @@ Casilla
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1524</x>
-      <y>624</y>
-      <w>216</w>
-      <h>60</h>
+      <x>1098</x>
+      <y>378</y>
+      <w>162</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#F3F781
@@ -498,21 +506,21 @@ No es agua y no hay trozo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1464</x>
-      <y>612</y>
-      <w>84</w>
-      <h>60</h>
+      <x>1062</x>
+      <y>387</y>
+      <w>54</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>50.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>40.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>732</y>
-      <w>504</w>
-      <h>168</h>
+      <x>18</x>
+      <y>576</y>
+      <w>378</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -531,10 +539,10 @@ Jugador
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>612</x>
-      <y>840</y>
-      <w>72</w>
-      <h>60</h>
+      <x>468</x>
+      <y>657</y>
+      <w>54</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#F3F781
@@ -545,10 +553,10 @@ apodo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>816</y>
-      <w>132</w>
-      <h>60</h>
+      <x>387</x>
+      <y>639</y>
+      <w>99</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>90.0;30.0;10.0;10.0</additional_attributes>
@@ -556,10 +564,97 @@ apodo</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>708</x>
-      <y>588</y>
-      <w>528</w>
-      <h>180</h>
+      <x>540</x>
+      <y>585</y>
+      <w>171</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=red
+valign=center
+TableroEnemigo
+-
+-casillas: Casilla[10][10] &lt;&lt;R&gt;&gt;
+-
++TableroEnemigo()
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>18</x>
+      <y>9</y>
+      <w>423</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Barquitos 0.8
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>315</y>
+      <w>144</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#2E9AFE
+valign=center
+Trozo
+-
+-tocado: boolean
+-
++Trozo()
++estaTocado(): boolean
++tocar()
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>117</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>bg=red
+valign=center
+Coordenada</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>81</y>
+      <w>63</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>144</y>
+      <w>45</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>459</y>
+      <w>396</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>style=autoresize
 bg=#2E9AFE
@@ -571,9 +666,32 @@ TableroPropio
 +TableroPropio()
 +colocar(barco: Barco, c: Coordenada, o: TipoOrientacion): boolean
 +esCoordenada(c: Coordenada): boolean
-+toString(): String
--
-R9=CREAR BARCOS</panel_attributes>
++toString(): String</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>990</x>
+      <y>711</y>
+      <w>63</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>style=autoresize
+bg=#F3F781
+Formato
+(%c,%d)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>711</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
   </element>
 </diagram>
